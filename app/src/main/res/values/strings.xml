@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Bitirme-1 Proje</string>
+    <string name="action_settings">Logout</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="fragment_MyWishList_AddWishBtn">+</string>
+    <string name="activity_Login_PasswordTextView">Password</string>
+    <string name="activity_Login_EmailTextView">Email:</string>
+    <string name="activity_Login_LoginBtn">Login</string>
+    <string name="activity_Login_RegisterPageLinkTextView">Register Here</string>
+    <string name="activity_BrowseWish_BidButton">Make The Bıd</string>
+    <string name="activity_BrowseWish_BidButton2">See The Bıds</string>
+    <string name="default_notification_channel_id">default</string>
+</resources>

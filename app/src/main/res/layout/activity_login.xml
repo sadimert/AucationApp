@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dayi.dayi.Login">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextView_Email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/activity_Login_EmailTextView"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/EditText_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TextView_Password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/activity_Login_PasswordTextView"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:id="@+id/EditText_Password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:maxLength="12" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_Login"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/activity_Login_LoginBtn"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <TextView
+            android:id="@+id/TextView_RegisterPageLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_Login_RegisterPageLinkTextView"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

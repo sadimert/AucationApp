@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "915742647024",
+    "firebase_url": "https://android-dayi.firebaseio.com",
+    "project_id": "android-dayi",
+    "storage_bucket": "android-dayi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915742647024:android:a32a324a792e008d",
+        "android_client_info": {
+          "package_name": "dayi.dayi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915742647024-6pfg6jkbejnh266ooqll0sjtoduscoj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dayi.dayi",
+            "certificate_hash": "f1ba4c77911b44ec6e220e2aec18bbc11e93ed43"
+          }
+        },
+        {
+          "client_id": "915742647024-ch4kb6v1549dj0ept58t5r7q28e2435h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7uwZEv_9RlMeCZCAxd7vOd4wCmKqDItg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915742647024-ch4kb6v1549dj0ept58t5r7q28e2435h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
